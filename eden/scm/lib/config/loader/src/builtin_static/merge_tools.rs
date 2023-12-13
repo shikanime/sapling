@@ -156,4 +156,7 @@ UltraCompare.gui = True
 UltraCompare.binary = True
 UltraCompare.check = conflicts,changed
 UltraCompare.diffargs=$child $parent -title1 $clabel -title2 $plabel1
+
+code.args=--wait --merge $other $local $base $output
+code.gui=True
 "#);
